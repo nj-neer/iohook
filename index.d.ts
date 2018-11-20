@@ -8,7 +8,7 @@ declare class IOHook extends EventEmitter {
    * Start hooking engine. Call it when you ready to receive events
    * @param {boolean} enableLogger If true, module will publish debug information to stdout
    */
-  start(enableLogger: boolean): void
+  start(enableLogger?: boolean): void
 
   /**
    * Stop rising keyboard/mouse events
